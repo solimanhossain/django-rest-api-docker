@@ -1,0 +1,14 @@
+services:
+    app:
+        build: .
+        ports:
+            - "8000:8000"
+        env_file:
+            - .env
+        volumes:
+            - .:/usr/src/app
+        command: make runserver
+
+networks:
+    default:
+        driver: bridge

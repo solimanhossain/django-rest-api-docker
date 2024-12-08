@@ -1,0 +1,21 @@
+# Ignore IDE-related files VSCode
+.vscode/
+.idea/
+
+# Ignore Python related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Docker images and containers
+.docker/
+
+# Ignore log files
+*.log
+
+# Ignore .env files for sensitive data
+.env
+
+# developers files
+/dev

@@ -1,0 +1,11 @@
+GET http://localhost:8000/api/
+
+###
+POST http://localhost:8000/api/
+Content-Type: application/json
+
+{
+  "text": "How do you make holy water?\n- You boil the hell out of it"
+}
+
+###

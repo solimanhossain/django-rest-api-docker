@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Django Rest API"
+version = "0.1.0"
+description = "RESTful API to perform CRUD operations using DRF"
+authors = ["Soliman Hossain <solimanhossainsohan@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1.4"
+djangorestframework = "^3.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,34 @@
+# Ignore Dockerfile
+Dockerfile
+
+# Ignore virtual environments
+env/
+venv/
+*.env
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore IDE-related files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore test and coverage files
+*.test
+*.cover
+
+# Ignore git ignore file
+.gitignore
+
+# Ignore Python related files
+__pycache__/
