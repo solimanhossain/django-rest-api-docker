@@ -1,11 +1,47 @@
-GET http://localhost:8000/api/
+###
+GET http://localhost:8000/jokes/
+
 
 ###
-POST http://localhost:8000/api/
+POST http://localhost:8000/jokes/
 Content-Type: application/json
 
 {
-  "text": "How do you make holy water?\n- You boil the hell out of it"
+  "text": "How do you organize a space party?"
 }
 
+
 ###
+GET http://localhost:8000/jokes/4
+
+
+###
+PUT http://localhost:8000/jokes/4
+Content-Type: application/json
+
+{
+  "text": "How do you organize a space party?\n- You planet!"
+}
+
+
+###
+PATCH http://localhost:8000/jokes/4
+Content-Type: application/json
+
+{
+  "text": "How do you organize a solar party?\n- You planet!"
+}
+
+
+###
+PUT http://localhost:8000/jokes/4
+Content-Type: application/json
+
+{
+  "text": "How do you organize a space party!\n- You planet!"
+}
+
+
+###
+DELETE http://localhost:8000/jokes/4
+

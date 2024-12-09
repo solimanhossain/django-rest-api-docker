@@ -20,5 +20,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', views.joke_list, name='joke_list'),
+    path('jokes/', views.joke_list, name='Jokes List'),
+    path('jokes/<int:pk>', views.joke_detail, name='Joke Details'),
 ]
